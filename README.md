@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 1. Buat Struktur Folder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="239" height="522" alt="image" src="https://github.com/user-attachments/assets/9d3f794c-fe6d-4b5e-ab35-96504958e91c" />
 
-## Available Scripts
+# 2. Set Up Backend
+- Backend menggunakan Node.js, Express, dan JWT.
+- Key JWT disimpan di folder backend dan akan digunakan untuk autentikasi setiap request dari frontend.
+- Jalankan backend dengan `npm start`, localhost akan berjalan di `:5000`.
 
-In the project directory, you can run:
+# 3. Set Up Frontend
+- Jalankan frontend dengan `npm start`, localhost akan berjalan di `:3000`.
 
-### `npm start`
+## Integrasi dengan Backend
+File koneksi API berada di api.js, di file ini program memastikan setiap request ke backend menyertakan JWT token yang dibaca dari localStorage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 4. CRUD dengan Modal (React Boostrap)
+Setiap aksi seperti tambah, edit, atau hapus data user dilakukan dalam modal.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="935" height="386" alt="image" src="https://github.com/user-attachments/assets/7ac1d365-7c79-4ad3-8b12-639168e1a895" />
 
-### `npm test`
+# 5. Validasi Login & Register
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Gagal Register (User Sudah Ada)
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 202108" src="https://github.com/user-attachments/assets/e81229eb-f084-49c2-8b26-c5bc4ee713e2" />
 
-### `npm run build`
+#### Login (Salaj Password/Email)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 202124" src="https://github.com/user-attachments/assets/42a3e93f-9ba2-4a19-bc7e-57a5d067f9f3" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Berhasil Login
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 191857" src="https://github.com/user-attachments/assets/c38124a9-7ad2-4847-9296-beebeaf5e1e4" />
 
-### `npm run eject`
+# 6. Dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Sebelum Menambahkan Data
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 195343" src="https://github.com/user-attachments/assets/3ea6b4e7-c90d-45e0-b27a-3d10fba7e9b2" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Sesudah Menambahkan Data
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 200935" src="https://github.com/user-attachments/assets/81bee612-f879-40d7-bf9b-a19c4b1ebb07" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 7. Check Data Postman & PostgreSQL
 
-## Learn More
+#### Postman (GET Products)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 200947" src="https://github.com/user-attachments/assets/c15da1b8-fe02-4d8b-9aa1-7fd5fe73d732" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### PostgreSQL
 
-### Code Splitting
+<img width="1900" height="997" alt="Screenshot 2025-11-04 200957" src="https://github.com/user-attachments/assets/b5acf0d3-0398-464c-9ff8-6be3dab03829" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 8. Hapus Data
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 200134" src="https://github.com/user-attachments/assets/e0c6edca-cd8a-49eb-b71d-1873ba5abb8a" />
