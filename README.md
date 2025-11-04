@@ -22,11 +22,12 @@ Setiap aksi seperti tambah, edit, atau hapus data user dilakukan dalam modal.
 # 5. Validasi Login & Register
 
 #### Gagal Register (User Sudah Ada)
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 202108" src="https://github.com/user-attachments/assets/e81229eb-f084-49c2-8b26-c5bc4ee713e2" />
 
-#### Login (Salaj Password/Email)
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223509" src="https://github.com/user-attachments/assets/17be1bec-0ec5-4235-970b-838cd3691e1e" />
 
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 202124" src="https://github.com/user-attachments/assets/42a3e93f-9ba2-4a19-bc7e-57a5d067f9f3" />
+#### Login (Salah Password/Email)
+
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223442" src="https://github.com/user-attachments/assets/7bad53d2-62b5-4e9e-8a53-61163dd9f0e5" />
 
 #### Berhasil Login
 
@@ -35,22 +36,28 @@ Setiap aksi seperti tambah, edit, atau hapus data user dilakukan dalam modal.
 # 6. Dashboard
 
 #### Sebelum Menambahkan Data
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 195343" src="https://github.com/user-attachments/assets/3ea6b4e7-c90d-45e0-b27a-3d10fba7e9b2" />
+
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223137" src="https://github.com/user-attachments/assets/110a71cd-064f-47f0-b3d1-3075b9f6c5b3" />
 
 ### Sesudah Menambahkan Data
 
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 200935" src="https://github.com/user-attachments/assets/81bee612-f879-40d7-bf9b-a19c4b1ebb07" />
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223619" src="https://github.com/user-attachments/assets/13f86f08-a77d-4467-9400-36fcc9c4f37b" />
 
 # 7. Check Data Postman & PostgreSQL
 
 #### Postman (GET Products)
 
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 200947" src="https://github.com/user-attachments/assets/c15da1b8-fe02-4d8b-9aa1-7fd5fe73d732" />
+<img width="1272" height="743" alt="image" src="https://github.com/user-attachments/assets/1be85010-7654-400a-996a-6b52e52e8324" />
 
 #### PostgreSQL
 
-<img width="1900" height="997" alt="Screenshot 2025-11-04 200957" src="https://github.com/user-attachments/assets/b5acf0d3-0398-464c-9ff8-6be3dab03829" />
+<img width="805" height="450" alt="Screenshot 2025-11-04 224347" src="https://github.com/user-attachments/assets/bc9503ec-db0e-4408-bfd8-c99378a25697" />
 
 # 8. Hapus Data
 
-<img width="1920" height="1008" alt="Screenshot 2025-11-04 200134" src="https://github.com/user-attachments/assets/e0c6edca-cd8a-49eb-b71d-1873ba5abb8a" />
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223129" src="https://github.com/user-attachments/assets/9bf906a2-8ef2-4c6c-b81e-6764f80366c8" />
+
+# 9. Update Data
+
+<img width="1920" height="1008" alt="Screenshot 2025-11-04 223630" src="https://github.com/user-attachments/assets/1302a733-7636-4a48-8f01-a03a2c4d0fd9" />
+
