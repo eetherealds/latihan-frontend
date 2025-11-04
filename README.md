@@ -4,6 +4,7 @@
 
 # 2. Set Up Backend
 - Backend menggunakan Node.js, Express, dan JWT.
+- Backend diambil dari `user-management-api`
 - Key JWT disimpan di folder backend dan akan digunakan untuk autentikasi setiap request dari frontend.
 - Jalankan backend dengan `npm start`, localhost akan berjalan di `:5000`.
 
